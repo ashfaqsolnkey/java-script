@@ -1,42 +1,42 @@
 1. Find max number from array 
 
-**let arr =[12,1,23,40,30];
+*let arr =[12,1,23,40,30];
  let max = arr[0];
  for(let i = 0;i < arr.length; i++){
     if(max < arr[i]){
         max=arr[i]
     }
  }
-console.log(max)
+console.log(max)*
 
 
 2. find min number from array 
 
-**let arr =[5,10,23,2,40,1,30,4]
+*let arr =[5,10,23,2,40,1,30,4]
 let min = arr[0]
  for(let i = 0; i < arr.length;i++){
     if(min > arr[i]){
         min = arr[i]
     }
  }
- console.log(min)
+ console.log(min)*
 
 
 3. Find total duplicate count of a number 
 
-let arr = [53, 32,32,32, 64, 53, 43];
+*let arr = [53, 32,32,32, 64, 53, 43];
 let count = 0;
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 32) {
         count += 1
     }
 }
-console.log(count)
+console.log(count)*
 
 
 4. find middle element of the array 
 
-function func(){ 
+*function func(){ 
     const arr = [1, 3, 7, 10, 70, 18, 33, 45, 99,20,10]; 
    function mid(arr, i){ 
       while(arr[i]){ 
@@ -46,7 +46,7 @@ function func(){
    }
    console.log(mid(arr, i = 0))
 }
-func()
+func()*
 
 
 5. find last element of the array 
