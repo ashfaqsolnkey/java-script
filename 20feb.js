@@ -94,22 +94,12 @@
 // 9. Find total count of even numbers in array 
 
 // const numbers = [8, 19, 5, 6, 14, 9, 13];
-// const odds = [];
+// const even = [];
 // for (const num of numbers) {
 //   if (num % 2 === 0) {
-//     odds.push(num);
+//     even.push(num);
 //   }
 // }
-// console.log(odds)
+// console.log(even)
 
 
-
- let arr =[12,1,239,40,30]
- let secondHight = arr[0]
-
- for(let i = 0;i < arr.length; i++){
-    if(secondHight < arr[i]){
-        secondHight=arr[i]
-    }
- }
-console.log(secondHight)
