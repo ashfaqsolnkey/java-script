@@ -1,6 +1,6 @@
 1. Find max number from array 
 
- let arr =[12,1,23,40,30]
+ ``let arr =[12,1,23,40,30]
  let max = arr[0]
 
  for(let i = 0;i < arr.length; i++){
@@ -8,19 +8,19 @@
         max=arr[i]
     }
  }
-console.log(max)
+console.log(max)``
 
 
 2. find min number from array 
 
-let arr =[5,10,23,2,40,1,30,4]
+``let arr =[5,10,23,2,40,1,30,4]
 let min = arr[0]
  for(let i = 0; i < arr.length;i++){
     if(min > arr[i]){
         min = arr[i]
     }
  }
- console.log(min)
+ console.log(min)``
 
 
 3. Find total duplicate count of a number 
