@@ -1,6 +1,6 @@
 1. Find max number from array 
 
- ``let arr =[12,1,23,40,30]
+``let arr =[12,1,23,40,30]
  let max = arr[0]
 
  for(let i = 0;i < arr.length; i++){
@@ -179,7 +179,7 @@ const arr = [
 
 13. Find which number is repeated most number of the times in the array, also tell number along with count
 
-const arr = [
+``const arr = [
     5, 2, 3, 22, 56, 90, 32, 550, 2, 60, 45, 220, 32, 22, 2, 67, 43, 11, 78, 2,
     110, 43, 21, 32, 0,
   ];
@@ -191,4 +191,4 @@ const arr = [
       newArr[arr[i]] = 1;
     }
   }
-  console.log(newArr[110]);
+  console.log(newArr[110]);``
